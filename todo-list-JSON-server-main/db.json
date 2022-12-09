@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "content": "Task 1",
+      "state": "done",
+      "edit": "false",
+      "id": 1
+    },
+    {
+      "content": "Task 2",
+      "state": "pending",
+      "edit": "false",
+      "id": 2
+    },
+    {
+      "content": "Task 3",
+      "state": "pending",
+      "edit": "false",
+      "id": 3
+    }
+  ]
+}

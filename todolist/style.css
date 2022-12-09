@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 500px;
+  border: 2px solid #e6e2d3;
+  border-radius: 2rem;
+}
+
+.todo__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:10px;
+}
+
+.todo__list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 300px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todo__list {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo__list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding:5px;
+  background-color: #e6e2d3;
+  
+}
+
+.todo__list span {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.li-taskComplete {
+  color: lightslategray;
+}
+
+.btn--submit {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.btn--delete {
+  background-color: #c94c4c;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn--delete:before {
+  content: "\e872"; 
+  font-family: "Material Icons"; 
+  color: white;
+}
+
+.btn--edit {
+  background-color: #008cba;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn--edit:before {
+  content: "\e3c9"; 
+  font-family: "Material Icons"; 
+  color: white;
+}
+
+
+/* Finished task list */
+
+.finished__list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 300px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.finished__list {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finished__list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding:5px;
+  background-color: #e6e2d3;
+}
+
+.finished__list span {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
